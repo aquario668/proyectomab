@@ -1,0 +1,241 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:"Cousine", sans-serif;
+}
+
+header {
+  height:100px;
+  background:white;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 20px 25px;
+  color:black;
+}
+
+.logo {
+  display:flex;
+  align-items:center;
+  font-weight:500px;
+  line-height:0.9;
+  font-size:60px;
+}
+
+.logo:hover {
+  color:red;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.logo:active{
+  color:darkred;
+}
+
+.logo a:active{
+  color:darkred;
+}
+.logo a:hover {
+  color:red;
+  cursor:pointer;
+  font-weight:600;
+}
+#man {
+  height:150px;
+  margin-right: 10px;
+  animation:animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0%{
+  transform: rotatey(0deg);
+}100%{
+  transform:rotatey(360deg);
+ }
+}
+
+nav {
+  display:flex;
+  width:200px;
+  justify-content: space-between;
+}
+
+.nav-link{
+  display:flex;
+  flex-direction:row;
+  margin-right:20px;
+  font-size:15px;
+}
+
+.nav-link:hover {
+  color:red;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.nav-link:active {
+  color:darkred;
+}
+
+.cart{
+  height:40px;
+  width:40px;
+  top:170px;
+  right:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: white;
+  border:solid 4px grey;
+  border-radius:60%;
+  position:fixed;
+}
+
+.cart:hover{
+  cursor:pointer;
+  background-color:red;
+}
+
+.cart:active{
+   background-color:darkred;
+}
+
+.cart-num {
+  height:17px;
+  width:17px;
+  top:155px;
+  right:7px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: white;
+  border:solid 4px grey;
+  border-radius:60%;
+  position:fixed;
+  font-size:13px;
+}
+
+
+#shop {
+  height:40px;
+  width:40px;
+  bottom:10px;
+  right:10px;
+}
+
+.masterbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  
+}
+
+.clothes {
+  height:450px;
+  width:200px;
+  color:black;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin:130px;
+}
+
+.clothes-box {
+  height:250px;
+  width:250px;
+  object-fit:cover;
+}
+
+.clothes-box:hover{
+  height:400px;
+  width:400px;
+  zoom:500px 500px;
+  cursor:zoom-out;
+  position:absolute top;
+}
+
+button {
+  padding:0px 10px;
+  border:solid;
+  color:black;
+  background-color:white;
+  border-radius:5px;
+  font-family:"Cousine",sans-serif;
+}
+
+
+
+.cart-btn:hover {
+  background-color:red;
+  box-shadow: 0 0 10px black;
+  cursor:pointer;
+   transform: scale(1.1,1.1)
+}
+
+.cart-btn:active {
+  background-color:darkred;
+   transform: scale(1,1)
+}
+
+footer{
+  color: black;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 0 30px;
+}
+
+.email-sign-up{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  margin-right:20px;
+}
+
+#sign-up {
+  padding:0px 10px;
+  border:solid;
+  color:black;
+  background-color:white;
+  border-radius:5px;
+  font-family:"Cousine",sans-serif;
+  display:flex;
+  justify-content:center;
+}
+
+#sign-up:hover {
+  background-color:red;
+  box-shadow: 0 0 10px black;
+  cursor:pointer;
+}
+
+#sign-up:active {
+   background-color:darkred;
+}
+
+.linktwo{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.sec-link {
+  margin-right:20px;
+  font-size:15px;
+}
+
+.sec-link:hover{
+  color:red;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.sec-link:active {
+  color:darkred;
+}

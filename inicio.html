@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Scream shop</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="./pier/pier.html">Piercing</a></li>
+                    <li><a href="./tat/tat.html">Tattoos</a></li>
+                    <li><a href="./cami/cam.html">Camisas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+     
+			<h2 class="myH2">Que es Scream shop?</h2>
+			<p class="myP">scream shop  , Es una página la cual fue diseñada para mostrar nuestras galerías de tatuajes , persings y camisas con diferentes diseños y precios a su gusto, como en nuestra galería de tatuajes tenemos varias personas para tatuar depende del diseño que quiera  y el precio que más guste o más acomode a su presupuesto, igualmente que en persings hay personal para perforarte de la mejor manera y tener la mejor limpieza posible para que no se infecte , y también contamos con anestesia para que no les duela al momento de aplicarlo , en nuestras galería camisas tenemos varios diseños  y tamaños , igual el precio es variable depende de cual sea , tenemos la mas pedida que es la de canserbero o de travis scot , nuestras camisas pueden ser de 500 a 1,000 , ya que son originales nuestros diseños , en nuestra galería de tatuajes los precios pueden ser desde 350 a 2,500 ya que es depende el diseño y cuantas horas nos lleve hacerlo ,en nuestros persings también varía el precio depende de donde sea , los precios varían de 100 a 400 incluye con su arete y un jabón para su limpieza y también un desinfectante para la zona del persing, en nuestra página también contamos con los contactos de nuestros trabajadores el numero y el instragram para si gusta ver sus trabajos realizados y ver cual les parece mejor , igualmente se ven las recomendaciones de quienes son los mas buscados por sus grandiosos trabajos , como uno de ellos es Brandon Escobar y luis torres ya que tienen mas clientes , siempre son mas de sus gustos , como también nuestra atenciom al cliente , que sran respetuosos y hagan de buena manera su trabajo y mejor cuidado ,esta es un poco de nuestra página Scream shop, por si gustandar un vistazo a nuestras galerias </p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
